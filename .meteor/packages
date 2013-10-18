@@ -1,4 +1,3 @@
-# Meteor packages used by this project, one per line.
 #
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
@@ -7,3 +6,15 @@ standard-app-packages
 autopublish
 insecure
 preserve-inputs
+iron-router
+meteor-errors-yth
+accounts-password
+accounts-entry
+coffeescript
+less
+accounts-ui
+iron-router-progress
+email
+establishments
+utils
+font-awesome

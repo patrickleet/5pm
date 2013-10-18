@@ -1,0 +1,6 @@
+[submodule "packages/bootstrap"]
+	path = packages/bootstrap
+	url = git@github.com:patrickleet/5pm-bootstrap.git
+[submodule "packages/font-awesome"]
+	path = packages/font-awesome
+	url = git@github.com:patrickleet/Font-Awesome.git

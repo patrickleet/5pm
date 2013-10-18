@@ -1,0 +1,13 @@
+<template name="layout">
+  <div id="wrap">
+    <header>
+      {{yield 'header'}}
+    </header>
+    {{> meteorErrors}}
+    {{yield}}
+  </div>
+  <footer id="footer">
+    {{yield 'footer'}}
+  </footer>
+</template>
+

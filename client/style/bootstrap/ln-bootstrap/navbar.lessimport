@@ -1,0 +1,57 @@
+// Navbar toggle
+//
+// Custom button for toggling the `.navbar-collapse`, powered by the collapse
+// JavaScript plugin.
+
+.navbar-add {
+  position: relative;
+  float: right;
+  margin-right: @navbar-padding-horizontal;
+  padding: 10px 10px 20px 10px;
+  .navbar-vertical-align(34px);
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: @border-radius-base;
+
+  // Bars
+  .icon-plus {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+  }
+  .icon-plus + .icon-plus {
+    margin-top: 4px;
+  }
+
+  @media (min-width: @grid-float-breakpoint) {
+    display: none;
+  }
+}
+
+.navbar-default {
+  .navbar-add {
+    border-color: @navbar-default-toggle-border-color;
+    &:hover,
+    &:focus {
+      background-color: @navbar-default-toggle-hover-bg;
+    }
+    .icon-plus {
+      color: @navbar-default-toggle-icon-bar-bg;
+    }
+  }
+}
+
+.navbar-inverse {
+  // Darken the responsive nav add
+  .navbar-add {
+    border-color: @navbar-inverse-toggle-border-color;
+    &:hover,
+    &:focus {
+      background-color: @navbar-inverse-toggle-hover-bg;
+    }
+    .icon-plus {
+      color: @navbar-inverse-toggle-icon-bar-bg;
+    }
+  }
+}

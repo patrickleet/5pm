@@ -1,7 +1,33 @@
 {
   "meteor": {},
   "dependencies": {
-    "basePackages": {},
-    "packages": {}
+    "basePackages": {
+      "iron-router": {},
+      "meteor-errors-yth": {},
+      "accounts-entry": {},
+      "iron-router-progress": {}
+    },
+    "packages": {
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.5.4",
+        "commit": "3e0e22ff85630b7503d0daa1538c6d90abb84020"
+      },
+      "meteor-errors-yth": {
+        "git": "https://github.com/tsenying/meteor-errors-yth.git",
+        "tag": "v0.1.0.2",
+        "commit": "26c7d5e582444ff60d1d084452e5cbbfc033a45d"
+      },
+      "accounts-entry": {
+        "git": "https://github.com/BeDifferential/accounts-entry.git",
+        "tag": "v0.2.10",
+        "commit": "abb1e196d432aab61a31b29b9d19eacf403130a8"
+      },
+      "iron-router-progress": {
+        "git": "https://github.com/Multiply/iron-router-progress.git",
+        "tag": "v0.0.9",
+        "commit": "e55699228a91ea94e9349a7fd62361c5b172f069"
+      }
+    }
   }
 }
